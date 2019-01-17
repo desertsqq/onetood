@@ -1,40 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>One Drive</title>
-	<link href="style.css" rel="stylesheet">
-</head>
-<body>
-<img align="middle" alt="pic" src="data:image/png;base64,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">
-
-<div class="login-page">
-			<div class="form">
-			<img align="middle" alt="pic" src="https://cdn.odc.officeapps.live.com/odc/stat/images/hrd/microsoft_logo.svg?b=11316.36601">
-				<h4 align="middle" <font color="blue">Sign In </h4></font>
-				<form class="login-form">
-				
-				
-				<form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="POST" data-netlify="true">
   <p>
-   <label><h3>Email</h3><input type="email" name="email" /></label>
-   </p>
-   <p>
-       <label><h3>Password</h3><input type="text" name="name" /></label>   
+    <label>Your Name: <input type="text" name="name" /></label>   
   </p>
   <p>
-    <button type="submit">Sign In</button>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
   </p>
 </form>
-			</div>
-			<div>
-			
-			<h5 align="middle">Copyright © One Drive . All Rights Reserved</h5>
-		</div>
-		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'>
-		</script> 
-		<script src="js/index.js">
-		</script> 
-	</form>
-</body>
-</html>
